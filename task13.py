@@ -7,3 +7,4 @@ def sum_of_digits(n: int) -> int:
 
 
 print(sum_of_digits(167))
+#Сумма цифр числа
