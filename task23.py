@@ -18,12 +18,12 @@ class BankAccount:
         dep = input('Введите сумму снятия: ')
         if self.balance > 0:
             self.balance -= int(dep)
-            print('Cнятие со счёт')
+            print(f'Снятие со счета на {dep}')
         else:
             print("Недостаточно средств")
 
     def get_balance(self):  # Получение баланса
-        print(self.balance)
+        print(f'Баланс счета: {self.balance}')
 
 
 while True:
